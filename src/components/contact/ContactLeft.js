@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
@@ -16,7 +16,7 @@ const ContactLeft = () => {
           Environmentalist.
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        An environmentalist works to protect natural ecosystems, conducts research, and advocates for sustainable practices and environmental policy improvements.
+          An environmentalist works to protect natural ecosystems, conducts research, and advocates for sustainable practices and environmental policy improvements.
         </p>
 
         <p className="text-base text-gray-400 flex items-center gap-2">
@@ -29,19 +29,19 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
       </div>
     </div>
   );
 }
 
-export default ContactLeft
+export default ContactLeft;
